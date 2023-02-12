@@ -41,6 +41,7 @@
   font-size: 40px;
   line-height: unset;
   display: flex;
+  font-weight: bold;
   justify-content: center;
   align-items: center;
   transform: scale(0);
@@ -65,28 +66,36 @@ div[data="8"] {
 }
 div[data="16"] {
   background-color: rgb(245, 149, 99);
+  font-size: 32px;
 }
 div[data="32"] {
   background-color: rgb(246, 124, 95);
+  font-size: 32px;
 }
 div[data="64"] {
   background-color: rgb(246, 94, 59);
+  font-size: 32px;
 }
 
 div[data="128"] {
   background-color: rgb(237, 207, 114);
+  font-size: 24px;
 }
 div[data="256"] {
   background-color: rgb(237, 204, 97);
+  font-size: 24px;
 }
 div[data="512"] {
   background-color: rgb(237, 200, 80);
+  font-size: 24px;
 }
 div[data="1024"] {
   background-color: rgb(237, 197, 63);
+  font-size: 24px;
 }
 div[data="2048"] {
   background-color: rgb(237, 194, 46);
+  font-size: 24px;
 }
 
 button {
